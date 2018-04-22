@@ -1,6 +1,6 @@
-Avant de commencer peut-être est-ce mieux de vous renseigner sur [Markdown](https://fr.wikipedia.org/wiki/Markdown) :).  
+Avant de commencer peut-être est-ce mieux de vous renseigner sur [Markdown](https://fr.wikipedia.org/wiki/Markdown) :smile:.  
 Et aussi d'aller voir ici ce sera peut-être plus joli : https://github.com/philippart-s/devoxx-2018  
-ou alors de lire directement la matrice en lisant ci-dessous ;)
+ou alors de lire directement la matrice en lisant ci-dessous :smile:.
 
 # Devoxx 2018
  - c'est quoi : une conférence par des développeurs pour des développeurs
@@ -15,12 +15,12 @@ ou alors de lire directement la matrice en lisant ci-dessous ;)
 Le data streaming c'est cool, avec la programmation réactive c'est encore plus cool.
 A méditer en ces jours de création de nouvelle plateforme batch java réactif, il est clair que tous les patterns ne seront pas couverts avec une seule approche (SpringBatch par exemple). Le data streaming doit être développé avec la bonne techno pour ne pas avoir l'effet inverse de ce qu'il peut apporter et la programmation réactive semble être intéressante à au moins étudier ...
 
-Attention aussi à la magie des containers, à la fin ça tourne sur une machine qui mutualise ses ressources :).
+Attention aussi à la magie des containers, à la fin ça tourne sur une machine qui mutualise ses ressources :smile:.
 Enfin [Vert.x](https://vertx.io/) semble de plus en plus mûre et est une solution à regarder de prêt même si Spring n'a pas dit son dernier mot dans la programmation réactive.
 
 ## Etre architecte en 2018
 Conférence assez étrange, ça trollait plus que dans le bureau (je ne savais pas que c'était possible ...).
-J'ai bien aimé le fait de présenter le rôle de l'architecte applicatif comme étant l'architecte d'une application avant tout et donc étant plus un rôle dans une équipe de développement qu'une personne transverse à plusieurs équipes dans sa grande tour. Cela n'empêche pas d'avoir une architecture applicative d'entreprise définissant les grands standards :).
+J'ai bien aimé le fait de présenter le rôle de l'architecte applicatif comme étant l'architecte d'une application avant tout et donc étant plus un rôle dans une équipe de développement qu'une personne transverse à plusieurs équipes dans sa grande tour. Cela n'empêche pas d'avoir une architecture applicative d'entreprise définissant les grands standards :smile:.
 L'architecte logiciel peut aussi être un rôle au sein du projet pour une application mais il est plus simple et quasiment obligatoire d'avoir un ou des choix d'entreprise pour les technologies afin de garantir que la connaissance ne se perd pas dans une multiplication de choix technologiques (maintenance, exploitabilité, ...).
 Ensuite l'importance des contrats des services et de l'urbanisation du SI, une fois qu'un service est appelé c'est considéré comme immutable et il faut accepter qu'il fait partie du patrimoine et le faire évoluer sans jamais rien casser (on ajoute on ne supprime pas).
 
@@ -30,14 +30,14 @@ Enfin j'ai bien aimé ces deux dernières choses :
 
 ## Migrer à Boot 2
 Alors là la bonne nouvelle c'est qu'il y a des docs qui expliquent ça chez Spring, la mauvaise c'est que cela ne se fait pas sans douleurs et que c'est quasiment obligatoire car la dépréciassion de Boot 1 va très vite arriver.
-Ce qu'il faut retenir c'est que cette migration casse énormément de choses sur actuator et les métriques (amis DPI si vous m'entendez :)).
+Ce qu'il faut retenir c'est que cette migration casse énormément de choses sur actuator et les métriques (amis DPI si vous m'entendez :smile:).
 Enfin et rien que pour pourvoir utiliser Spring Reactive et Flux ça vaut le coup de migrer :D.
 
 ## Conclusion du jour 1
 Les gros sujets qui reviennent en boucle :
- - Boot (on a bien fait de choisir ça :)),
- - Programmation réactive : on fait bien fait de vouloir y aller pour le streaming :),
- - Les micros services : on a bien fait de commencer à étudier ça :),
+ - Boot (on a bien fait de choisir ça :smile:),
+ - Programmation réactive : on fait bien fait de vouloir y aller pour le streaming :smile:,
+ - Les micros services : on a bien fait de commencer à étudier ça :smile:,
  - le angular bashing au profit de react ... euh
 
 Sinon je vous ai déjà parlé du découpage en pizzas teams et partage d'environnement de travail pour une équipe ayant tous les profils (dev -> prod) ?
@@ -53,14 +53,14 @@ Très intéressantes avec notamment le modèle de l'Estonie qui a dû tout inven
 Ensuite une keynote avec un "vrai" architecte, comprenez par-là issu de l'immobilier où on apprends que le secteur de l'immobilier n'a pas forcément sût faire sa révolution numérique mais qu'il s'y attelle et qu'en plus cela peut bénéficier au bien-être au travail en aménageant des espaces de travail "intelligents" (un exemple parmi tant d'autres : une salle de réunion se libère si au bout de 20 mins elle constate qu'il n'y a personne grâce à des capteurs, cela ferait fureur chez nous non ? ;)).
 
 ## DevOps as service
-Je veux ça !!! :)  
+Je veux ça !!! :smile:  
 Beaucoup d'éléments que j'ai déjà abordé mais l'idée ici est d'apporter plus vite de la valeur au business, d'être capable plus vite de faire machine arrière ou changer des fonctionnalités en production.
 
 Et comme toujours c'est avant tout un changement de conception des choses avec comme point central une équipe multi-profils qui a un but commun : délivrer de la plus-value plus vite et de meilleure qualité.
 
 Cela permet aussi d'améliore la satisfaction des développeurs avec une vision plus rapide de ce qui est mis en place en production sans avoir l'impression de coder pendant des mois sans voir ce que cela donne "en vrai" (le bien-être au travail ... ;)).
 
-Une autre chose que j'ai trouvé intéressant est que plutôt que de mettre en place une documentation figée et qui peine à évoluer dans le temps privilégier une zone d'échanges avec questions / réponses à la stack overflow (je pense que le site a prouvé son utilité et son bon fonctionnement :)),
+Une autre chose que j'ai trouvé intéressant est que plutôt que de mettre en place une documentation figée et qui peine à évoluer dans le temps privilégier une zone d'échanges avec questions / réponses à la stack overflow (je pense que le site a prouvé son utilité et son bon fonctionnement :smile:),
 Dans le même esprit : proposer de fonctionner en interne comme le font les projets open source : lorsqu'une équipe développe quelque chose qui pourrait servir à d'autres (par exemple un logger) externaliser ce projet dans un repo git et le proposer en utilisation comme un projet open source (issues, participation au développement, ...).
 
 En résumé :
