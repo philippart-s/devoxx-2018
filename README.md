@@ -102,7 +102,7 @@ Cela fait quelque temps que je m'intéresse à cette API et je pense que l'on pe
 
 Encore une chose à étudier de près ...
 
-# Du monolithe spaghetti aux micros services
+## Du monolithe spaghetti aux micros services
 Une conférence un peu fouillis où j'ai peiné à ressortir clairement des points.  
 Ce que j'ai pu retenir de ce REX c'est qu'une application monolithe n'est pas forcément mal au moment où elle est faite (tehno, business, ...), c'est ne rien faire ensuite qui est mal. Malgré cela, le découpage en micros services n'est pas aisé et il n'existe pas de recette magique, même si l'approche [DDD](https://en.wikipedia.org/wiki/Domain-driven_design) semble aider dans cette démarche.
 
